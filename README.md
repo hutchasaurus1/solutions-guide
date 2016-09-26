@@ -41,7 +41,7 @@ Solutions should follow the logical workflow the student might go through
 			return np.mean(errors) ** .5
 		```
 
-	d. #TODO Link to good example
+	d. TODO: Link to good example
 
 2. Object oriented problems
 
@@ -49,11 +49,11 @@ Solutions should follow the logical workflow the student might go through
 
 	b. Include docstrings for each function within the object
 
-	c. #TODO Link to good example
+	c. TODO: Link to good example
 
 ## Case Studies
 
-1. #TODO ???
+1. TODO: ???
 
 
 ## Assessments
@@ -72,7 +72,7 @@ Solutions should follow the logical workflow the student might go through
 
 3. Multiple word function names should be separated by an underscore (this_function())
 
-4. #TODO Link to good example
+4. TODO: Link to good example
 
 ## Math and Text Solutions
 
@@ -80,4 +80,4 @@ Solutions should follow the logical workflow the student might go through
 
 2. Use LaTeX to display proper notation when necessary
 
-3. #TODO Link to good example
+3. TODO: Link to good example
