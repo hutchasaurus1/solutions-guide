@@ -17,32 +17,31 @@ Solutions should follow the logical workflow the student might go through
 		# 1.1
 		# Write a function to calculate the root mean squared error using a
 		# for loop
-		Def rmse(predicted, true):
-			“””
-			Returns root mean squared error for any predicted values and
-			associated true values
-			“””
+		def rmse(predicted, true):
+			"""
+			Return root mean squared error for any predicted values and associated true values
+			"""
 			errors = []
 			for i, pred in enumerate(predicted):
 			errors.append((pred - true[i]) ** 2)
-			return np.mean(Errors) ** .5
+			return np.mean(errors) ** .5
 		```
 
 	c. If one question alters a small part of a previous function, rewrite the function then comment on the changed lines
 
 		```python
 		# 1.2
-		# Rewrite the root mean squared error function using numpy operations to # remove the for loop
-		Def rmse(predicted, true):
-			“””
-			Returns root mean squared error for any predicted values and
-			associated true values
-			“””
+		# Rewrite the root mean squared error function using numpy operations to remove the for loop
+
+		def rmse(predicted, true):
+			"""
+			Return root mean squared error for any predicted values and associated true values
+			"""
 			errors = (np.array(predicted) - np.array(true)) ** 2 # Condensed the for loop to one line
-			return np.mean(Errors) ** .5
+			return np.mean(errors) ** .5
 		```
 
-	d. Link to good example
+	d. #TODO Link to good example
 
 2. Object oriented problems
 
@@ -50,11 +49,11 @@ Solutions should follow the logical workflow the student might go through
 
 	b. Include docstrings for each function within the object
 
-	c. Link to good example
+	c. #TODO Link to good example
 
 ## Case Studies
 
-1. ???
+1. #TODO ???
 
 
 ## Assessments
@@ -73,12 +72,12 @@ Solutions should follow the logical workflow the student might go through
 
 3. Multiple word function names should be separated by an underscore (this_function())
 
-4. Link to good example
+4. #TODO Link to good example
 
 ## Math and Text Solutions
 
 1. Written in markdown
 
-2. Use Latex to display proper notation when necessary
+2. Use LaTeX to display proper notation when necessary
 
-3. Link to good example
+3. #TODO Link to good example
