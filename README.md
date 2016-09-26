@@ -22,10 +22,10 @@ Solutions should follow the logical workflow the student might go through
 			Returns root mean squared error for any predicted values and
 			associated true values
 			“””
-		Errors = []
-		For i, pred in enumerate(predicted):
-		Errors.append((pred - true[i]) ** 2)
-		Return np.mean(Errors) ** .5
+			errors = []
+			for i, pred in enumerate(predicted):
+			errors.append((pred - true[i]) ** 2)
+			return np.mean(Errors) ** .5
 		```
 
 	c. If one question alters a small part of a previous function, rewrite the function then comment on the changed lines
@@ -38,8 +38,8 @@ Solutions should follow the logical workflow the student might go through
 			Returns root mean squared error for any predicted values and
 			associated true values
 			“””
-		errors = (np.array(predicted) - np.array(true)) ** 2 # Condensed the for loop to one line
-		return np.mean(Errors) ** .5
+			errors = (np.array(predicted) - np.array(true)) ** 2 # Condensed the for loop to one line
+			return np.mean(Errors) ** .5
 		```
 
 	d. Link to good example
